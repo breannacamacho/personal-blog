@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  border-bottom: 10px solid var(--pink);
+  border-style: double;
+  border-left: 0;
+  border-right: 0;
+  padding: 0 20px; /* Add padding to center items */
+}
+
+/* Back button styling */
+#emoji-back {
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--pink); /* Match the color with theme */
+}
+
+#theme-switcher {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  color: var(--pink); /* Match the color with theme */
+}
+
+/* Header text styling */
+#first-blog {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+  padding-left: 20px;
+  color: var(--darkPink);
+}
+
+/* Blog posts styling */
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-style: dotted;
+  border-radius: 10px;
+  border-color: var(--pink);
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.blog-title {
+  text-decoration: underline;
+  color: var(--darkPink);
+}
+
+.blog-content {
+  font-style: italic;
+}
+
+.posted-by {
+  font-size: smaller;
+}
+
+/* Footer styling */
+footer {
+  display: grid;
+  place-items: center;
+  border-top: 10px solid var(--pink);
+  border-style: double;
+  width: 100%;
+}
+
+#footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

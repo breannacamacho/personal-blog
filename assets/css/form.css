@@ -1,0 +1,135 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  display: flex;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 60px;
+  border-bottom: 10px solid var(--pink);
+  border-style: double;
+  border-top: 0;
+}
+
+/* Left aside styling */
+#left-aside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Circle styling */
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20vi;
+  height: 20vi;
+  border-radius: 50%;
+  background-image: linear-gradient(var(--pink) 0%, var(--darkPink) 100%);
+}
+
+/* Text in circle */
+#first-blog {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  font-size: 2vi;
+  margin: 0;
+}
+
+/* Circle container */
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+/* Divider styling */
+#divider {
+  border-left: 10px solid var(--pink);
+  height: 90vh;
+  overflow: hidden;
+}
+
+/* Right aside styling */
+#right-aside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Form header styling */
+#blog-header {
+  padding-bottom: 10px;
+  color: var(--darkPink);
+  font-size: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Form styling */
+form {
+  width: 30vw;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-left: 10px;
+}
+
+/* Label styling */
+label {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  font-size: 1em;
+}
+
+/* Input field styling */
+.input-field-1,
+.input-field {
+  width: 30vw;
+}
+
+.input-field {
+  height: 20vh;
+}
+
+/* Button styling */
+button {
+  width: 30vw;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: var(--pink);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Error message styling */
+#error-message {
+  color: red;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  display: none;
+}
