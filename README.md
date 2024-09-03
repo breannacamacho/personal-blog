@@ -1,6 +1,6 @@
 # Personal Blog Project
 
-[Sample Picture](assets/images/Blog_Sample.png)
+![Sample Picture](assets/images/Blog_Sample.png)
 
 ## Overview
 
