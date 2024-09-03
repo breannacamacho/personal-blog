@@ -1,46 +1,52 @@
 # Personal Blog Project
 
-![Sample Picture](assets/images/Blog_Sample.png)
+![Sample Picture](assets/images/sample_pic.png)
 
-## Overview
-
-This project is a blog with light and dark mode themes. It includes a back button with an arrow and a theme switcher to toggle between light and dark modes. The project also features smooth transitions between themes.
+**Blog Project** is a web application designed to create and manage blog posts. It features a simple user interface with functionality for light/dark mode toggling, form submissions, and a responsive design.
 
 ## Features
 
-- **Light and Dark Modes**: Toggle between light and dark themes with a smooth transition.
-- **Back Button**: A cute back button with an arrow, styled to match the page colors.
-- **Theme Switcher**: Button to switch between light and dark modes.
+- **Light/Dark Mode Toggle:** Switch between light and dark themes using the sun/moon emoji button in the header.
+- **Add Blog Posts:** Submit new blog posts using the form provided on the right side of the page.
+- **Responsive Design:** The application adjusts to various screen sizes for an optimal viewing experience.
+
+## Technologies Used
+
+- **HTML:** Structure and content presentation.
+- **CSS:** Styling and layout design with support for light and dark themes.
+- **JavaScript:** Handles form submissions, theme toggling, and other interactive features.
+- **Git:** Version control for tracking changes and collaboration.
+- **GitHub:** Hosting repository for codebase and version history.
 
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
 
-2. Navigate to the Project Directory:
-    cd <project-directory>
+    ```bash
+    git clone https://github.com/breannacamacho/personal-blog.git
+    ```
 
-3. Open the `index.html` File: 
-    Open the `index.html` file in your preferred web browser to view the project.
+2. Navigate to the project directory:
+
+    ```bash
+    cd blog-project
+    ```
+
+3. Open `index.html` in your web browser to use the app.
 
 ## Usage
 
-1. **Open the Project in Your Browser**:
-   - Ensure you have a local server running (e.g., Live Server extension for VSCode).
-   - Open `index.html` in your browser to view the application.
+1. Open the `index.html` file in your browser to view the application.
+2. Click the sun/moon emoji in the header to toggle between light and dark modes.
+3. Use the form on the right side of the page to add new blog posts.
+4. View and manage blog posts with styling that adapts to the selected theme.
 
-2. **Light/Dark Mode Toggle**:
-   - Click the sun/moon emoji in the header to switch between light and dark modes.
+## Contributing
 
-3. **Form Submission**:
-   - Fill out the form on the right side of the page and click "Submit" to add a new blog post.
+Contributions are welcome! To contribute:
 
-## Files
-
-- `index.html`: Main HTML file with the structure of the application.
-- `style.css`: Contains general styling for both light and dark themes.
-- `blog.css`: Styles specific to the blog page, including layout and form design.
-- `form.css`: Styles specific to the form layout and design.
-- `logic.js`: JavaScript for handling form logic and local storage.
-- `form.js`: JavaScript for handling form submissions and validations.
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/YourFeature`
+5. Open a pull request.
