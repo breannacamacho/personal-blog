@@ -1,6 +1,6 @@
 # Personal Blog Project
 
-![Sample Picture](assets/images/Blog_Sample.png.png)
+![Sample Picture](assets/images/Blog_Sample.png)
 
 **Blog Project** is a web application designed to create and manage blog posts. It features a simple user interface with functionality for light/dark mode toggling, form submissions, and a responsive design.
 
