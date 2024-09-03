@@ -1,19 +1,26 @@
+// Select the theme switcher button and container element
 const themeSwitcher = document.querySelector("#theme-switcher");
 const container = document.querySelector(".container");
-// initialized the variable to current theme as dark by default
+
+// Initialize the variable to track the current theme, defaulting to "dark"
 let mode = "dark";
-// event listener for the theme switcher button
+
+// Event listener for the theme switcher button
 themeSwitcher.addEventListener("click", function () {
-  // toggles the theme mode between dark and light
+  // Toggle the theme mode between "dark" and "light"
   if (mode === "dark") {
+    // Switch to light mode
     mode = "light";
-    // updated the element's class based on current mode and updated switcher button emoji based on the mode
+    // Update the container's class to "light" and change the switcher button emoji
     container.setAttribute("class", "light");
-    themeSwitcher.textContent = "🌒";
+    themeSwitcher.textContent = "🌒"; // Moon emoji for light mode
   } else {
+    // Switch to dark mode
     mode = "dark";
+    // Update the container's class to "dark" and change the switcher button emoji
     container.setAttribute("class", "dark");
-    themeSwitcher.textContent = "☀️";
+    themeSwitcher.textContent = "☀️"; // Sun emoji for dark mode
   }
-  console.log();
+  // Log the current mode (optional for debugging)
+  console.log(`Current mode: ${mode}`);
 });
