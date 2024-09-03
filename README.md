@@ -4,6 +4,8 @@
 
 **Blog Project** is a web application designed to create and manage blog posts. It features a simple user interface with functionality for light/dark mode toggling, form submissions, and a responsive design.
 
+**Visit The Deployed Application:** https://breannacamacho.github.io/personal-blog/
+
 ## Features
 
 - **Light/Dark Mode Toggle:** Switch between light and dark themes using the sun/moon emoji button in the header.
